@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANKET</title>
+</head>
+<body>
+    <h1 id="baslik"> KİŞİLİK ANKETİ </h1>
+    <form>
+        <label for="ad"> Ad </label>
+        <br><input type="text" name="ad" id="ad">
+        <br><label for="soyad">Soyad</label>
+        <br><input type="text" name="soyad" id="soyad">
+        <br><label for="dt">Doğum Tarihi (Gün,Ay,Yıl)</label>
+        <br><input type="text" name="dogumtarihi" id="dt">
+        <br><label for="dy"> Doğum yeri (İl/İlçe)</label>
+        <br><input type="text" name="dogumyeri" id="dy">
+        <br><br><label>Cinsiyetinizi seçiniz.</label>
+        <select>
+            <option value="kadın">Kadın</option>
+            <option value="erkek">Erkek</option>
+        </select>
+        <br><p>Aşağıda ki soruları kendinize göre cevaplayınız.</p>
+        <p> 1-Tamamladığınız en yüksek eğitim nedir?</p>
+        <input type="radio" value="İlkogretim" id="io" name="okul">
+        <label for="io">İlköğretim</label>
+        <input type="radio"  value="ortaokul" id="oo" name="okul">
+        <label for="oo">Ortaokul</label>
+        <input type="radio"  value="lise" id="lise" name="okul">
+        <label for="lise">Lise</label>
+        <input type="radio" value="universite" id="uni" name="okul">
+        <label for="uni">Üniversite</label>
+
+        <p>2-Medeni durumunuz nedir?</p>
+        <input type="radio" name="medenidurum" value="evli" id="evli">
+        <label for="evli">Evli</label>
+        <input type="radio" name="medenidurum" value="bekar" id="bekar">
+        <label for="bekar">Bekar</label>
+
+        <p>3-Yeni insanlarla tanışmayı sever misiniz?</p>
+        <input type="radio" value="evet" name="tercih">
+        <label for="evet">Evet</label>
+        <input type="radio" value="hayır" name="tercih">
+        <label for="hayır">Hayır</label>
+        <input type="radio" value="belki" name="tercih">
+        <label for="belki">Belki</label>
+
+        <p>4-İnsanlara yardım etmeyi seviyor musun?</p>
+        <input type="radio" value="evet" name="tercih">
+        <label>Evet</label>
+        <input type="radio" value="hayır" name="tercih">
+        <label>Hayır</label>
+        <input type="radio" value="belki" name="tercih">
+        <label>Belki</label>
+
+        <p>5-Yapmadığınız bir şey için haksız yere suçlandıysanız ne yaparsınız?</p>
+            <textarea rows="5" cols="100" name="message">Lütfen cevabınızı yazınız.</textarea>
+            
+        <p>6-Öfkelendiğinizde sakinleşmeniz ne kadar zaman alıyor?</p>
+            <textarea rows="5" cols="100" name="message"> Lütfen cevabınızı yazınız.</textarea>
+
+        <p> 7-Kolayca hayal kırıklığına uğrar mısınız?</p>
+        <input type="radio" value="evet" name="tercih">
+        <label for="evet">Evet</label>
+        <input type="radio" value="hayır" name="tercih">
+        <label for="hayır">Hayır</label>
+        <input type="radio" value="belki" name="tercih">
+        <label for="belki">Belki</label>
+
+        <p> 8- İnsanlara yalnızca karşılığında bir şey alacağınızı düşündüğünüzde mi yardım ediyorsunuz?</p>
+        <input type="radio" name="tercih" value="evet">
+        <label>Evet</label>
+        <input type="radio" value="hayır" name="tercih">
+        <label for="hayır">Hayır</label>
+        <input type="radio" value="belki" name="tercih">
+        <label for="belki">Belki</label>
+
+        <p> 9-Uzun vadeli hedefler belirliyor musunuz?Belirliyorsanız biraz bahseder misiniz?</p>
+        <textarea rows="5" cols="100" name="message"> Lütfen cevabınızı yazınız.</textarea>
+
+        <p>10-Diğer insanların duygularına saygılı mısınız? </p>
+        <input type="radio" name="tercih" value="evet">
+        <label>Evet</label>
+        <input type="radio" value="hayır" name="tercih">
+        <label for="hayır">Hayır</label>
+        <input type="radio" value="belki" name="tercih">
+        <label for="belki">Belki</label>
+
+        <p>11-Her zaman meşgul müsünüz?</p>
+        <input type="radio" name="tercih" value="evet">
+        <label>Evet</label>
+        <input type="radio" value="hayır" name="tercih">
+        <label for="hayır">Hayır</label>
+        <input type="radio" value="belki" name="tercih">
+        <label for="belki">Belki</label>
+
+        <p>12-Ne sıklıkla sosyal bir ortama veya halka açık bir yere çıkıyorsunuz?</p>
+        <input type="radio" value="az" name="sıklık">
+        <label>Az</label>
+        <input type="radio" value="bazen" name="sıklık">
+        <label>Bazen</label>
+        <input type="radio" value="sıklıkla" name="sıklık">
+        <label>Sıklıkla</label>
+
+        <p>13-Ne sıklıkla seyahat ediyorsunuz?</p>
+        <input type="radio" value="az" name="sıklık">
+        <label>Az</label>
+        <input type="radio" value="bazen" name="sıklık">
+        <label>Bazen</label>
+        <input type="radio" value="sıklıkla" name="sıklık">
+        <label>Sıklıkla</label>
+
+        <p>14-Genel olarak sosyal amaçlar konusunda tutkulu musunuz?</p>
+        <input type="radio" name="tercih" value="evet">
+        <label>Evet</label>
+        <input type="radio" value="hayır" name="tercih">
+        <label for="hayır">Hayır</label>
+        <input type="radio" value="belki" name="tercih">
+        <label for="belki">Belki</label>
+
+        <p>15-Koşullar ne olursa olsun, insanların içindeki iyiliği görme eğiliminiz var mı?</p>
+        <input type="radio" name="tercih" value="evet">
+        <label>Evet</label>
+        <input type="radio" value="hayır" name="tercih">
+        <label for="hayır">Hayır</label>
+        <input type="radio" value="belki" name="tercih">
+        <label for="belki">Belki</label>
+  </form>
+  <div style=height:100px></div>
+    <a href="#baslik">Yukarı çıkmak için tıklayınız.</a>
+</body>
+</html>
